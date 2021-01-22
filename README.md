@@ -7,8 +7,9 @@ Further learning with React in combination with API requests. This uses open wea
 ## Details
 
 This uses React useEffect to fetch data from the open weather map server. Data is saved to a state and passed to a component to be rendered. I utilised code I found on stackoverflow to convert wind direction received in the object from the server to heading text combined with an arrow. This improved readability for the user. Code was found here:
-https://stackoverflow.com/questions/7490660/converting-wind-direction-in-angles-to-text-words
-The api key required for open weather map was stored in a .env file locally and added to environment variables for the demo above.
+https://stackoverflow.com/questions/7490660/converting-wind-direction-in-angles-to-text-words\
+The api key required for open weather map was stored in a .env file locally and added to environment variables for the demo above.\
+I used icons available from open weather map with the corresponding codes available in the object recieved from the fetch to format a url on the ui.
 <br/><br/>
 
 ## Built With
